@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# writing a bash that script all listening port
+ PORT=98
+ echo "listening on localhost port $PORT..."
+ nc -l -p $PORT
